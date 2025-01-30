@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZDPvsGWtHYo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\distel\\Desktop\\POE2\\Plugins\\Source\\Playercircle\\PlayerCircle.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\distel\\.nuget\\packages\\imgui.net\\1.90.0.1\\imgui.net.1.90.0.1.nupkg.sha512",
+    "C:\\Users\\distel\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\distel\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\distel\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\distel\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
