@@ -8,6 +8,7 @@ namespace PlayerCircle;
 
 public class PlayerCircleSettings : ISettings
 {
+    public TextNode TargetPlayerName { get; set; } = new TextNode("Leader");
     public ToggleNode Enable { get; set; } = new ToggleNode(false);
 
     [Menu(null, "Enable/Disable circle around player")]
