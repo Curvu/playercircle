@@ -1,14 +1,19 @@
 ﻿using ExileCore2.Shared.Attributes;
 using ExileCore2.Shared.Interfaces;
 using ExileCore2.Shared.Nodes;
-using System.Windows.Forms;
 using System.Drawing;
 
 namespace PlayerCircle;
 
 public class PlayerCircleSettings : ISettings
 {
+    public string[] PartyElements { get; set; } = new string[5];
+
     public TextNode TargetPlayerName { get; set; } = new TextNode("Leader");
+
+    [Menu(null, "Circle around yourself (it will override the target player)")]
+    public ToggleNode CircleSelf { get; set; } = new ToggleNode(true);
+
     public ToggleNode Enable { get; set; } = new ToggleNode(false);
 
     [Menu(null, "Enable/Disable circle around player")]
